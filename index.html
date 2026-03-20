@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="card-container">
         <div class="board-container">
-            <div class="cell c1">X</div>
-            <div class="cell c2">O</div>
-            <div class="cell c3">3</div>
-            <div class="cell c4">4</div>
-            <div class="cell c5">5</div>
-            <div class="cell c6">6</div>
-            <div class="cell c7">7</div>
-            <div class="cell c8">8</div>
-            <div class="cell c9">9</div>
+            <div class="cell c1" id="c1" onclick="clickC1()"></div>
+            <div class="cell c2" id="c2" onclick="clickC2()"></div>
+            <div class="cell c3" id="c3" onclick="clickC3()"></div>
+            <div class="cell c4" id="c4" onclick="clickC4()"></div>
+            <div class="cell c5" id="c5" onclick="clickC5()"></div>
+            <div class="cell c6" id="c6" onclick="clickC6()"></div>
+            <div class="cell c7" id="c7" onclick="clickC7()"></div>
+            <div class="cell c8" id="c8" onclick="clickC8()"></div>
+            <div class="cell c9" id="c9" onclick="clickC9()"></div>
         </div>
 
         <div class="output-input">
@@ -32,5 +31,6 @@
             <img src="./icons/github-icon.png" class="github-icon" alt="github icon">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
