@@ -8,6 +8,8 @@ const c7 = document.getElementById("c7");
 const c8 = document.getElementById("c8");
 const c9 = document.getElementById("c9");
 
+const text = document.getElementById("text");
+
 let currentPlayer = "X";
 
 function clickC1(){
@@ -62,6 +64,7 @@ function changePlayer(){
     else{
         currentPlayer = "X";
     }
+    text.textContent = "PLAYER " + currentPlayer;
 }
 
 function playAgain(){
@@ -74,4 +77,6 @@ function playAgain(){
     c7.textContent = "";
     c8.textContent = "";
     c9.textContent = "";
+    currentPlayer = "X";
+    text.textContent = "PLAYER " + currentPlayer;
 }
