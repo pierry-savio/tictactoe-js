@@ -112,8 +112,13 @@ body{
     gap: 1rem;
 }
 
-p{
+.text{
     font-size: 40px;
+}
+
+.github-username{
+    font-size: 18px;
+    color: #6d6d6d;
 }
 
 button{
