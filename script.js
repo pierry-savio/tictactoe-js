@@ -14,11 +14,6 @@ const velha = document.getElementById("velha");
 
 let currentPlayer = "X";
 
-setInterval(() => {
-    console.log(winner());
-}, 2000);
-
-
 function clickC1(){
     if (c1.textContent == ""){
         if (winner() == ""){
